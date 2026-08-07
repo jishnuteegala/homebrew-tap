@@ -5,21 +5,21 @@ class Stalelink < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/jishnuteegala/stalelink/releases/download/v0.1.0/stalelink-aarch64-apple-darwin.tar.xz"
-      sha256 "8eb49224af20ef9e972d6c63c1002e037fc8447edd60e33f4794a1195c69b70d"
+      sha256 "dfddec03a8736dbdbab62afd6782bea9524abcb86ac75c5475409a54f7c2b46f"
     end
     if Hardware::CPU.intel?
       url "https://github.com/jishnuteegala/stalelink/releases/download/v0.1.0/stalelink-x86_64-apple-darwin.tar.xz"
-      sha256 "221fcb8ca0c99256bc6a056021e2f6a71e8649161341df6b570d10cf434f5758"
+      sha256 "1b1aca7b4e75894ade1ebbb81f6d3b23cc9f357238344db556aa6daebeb390fa"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/jishnuteegala/stalelink/releases/download/v0.1.0/stalelink-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f9a0af1dd74dde3be34f29f7309439a261d5f36ee14c301721718a25ba95fb23"
+      sha256 "323252a41ae4fd39e81b9713b11fdeb1df9b271d713f8e96647afa15c2836c0a"
     end
     if Hardware::CPU.intel?
       url "https://github.com/jishnuteegala/stalelink/releases/download/v0.1.0/stalelink-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8989e32d5c54f566d835588d86ef790b7d90a2b9caa3de21dfd98348dbe05fe8"
+      sha256 "4d6052ae494be09da5c46f0030f53eb70f0693855d1773e4ce28329586f9a540"
     end
   end
   license "MIT"
